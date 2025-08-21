@@ -1,0 +1,2303 @@
+BWT: CGGCGACCCCCTATATACGCCCTTTCATACCCCCCAAGGCCATTCTGTCACAGTAATTTACTTCGCGAGACCAAACGTTAACGTTGAACAGCTCCGAACGGTTCTTGTGCTGAATAAGCTTGTGTCCGCGTGGACCTCTGCTGCTAGTGCGAACAGACCTAGCCCTCTAACCCGCTGCCATCCTTTCGTCGCTAGGCGCACAAACATAATGCATTCCAGCGACCCATCTCCCAAGTACACCATTCTCAAGCGTGAACCGGTAAGTCACGATATATACCTGCGCGAGTAACAGGACGTATTCTGGCGCCAACTACCTGGCTGACATCATGTGTGTAACCTTCTATTTCGAGGGGTAGACTTGCCCGTAACCCTTATTTAAAATCAGTGTGTGATCGGGAAAACCCTGTAGGTGTGTGGGGCGTCCATGGATGTTTAGCCGCATCGTATCGGTGTTCGAATGGACAAGCCCGGCTAATCATGAATGTAGATCGATGAGTTAGAACACGAGAAATCAGAAACGATCCATGGGGTGCGGGCCCCGCAGTGGGTTGACGCCGTTTCTCGCCATTTCAATCCGTCGAGCATTGTCGCGTGAGCACCGGCTGTAAATTTTCCGGGCCTCCTAGCACCACGGCGTTTAGATGCGTTGGGGGGATTAACGGCCTTGACGTCGTCCCTGGTCGGGCACTGCACTTTTTAAATATATGGTAGAGGACGTCATTATATAAGTACGATGAATGGTAGGCTCAACCAAGTCTGTTACACCTACCTACTGTTCCGACCATGGGCTGCTTGTAGTTCTCGTTGGTTGACTTATGAGACCCGTCGAGTCTAAAGAGTATTACAACGGGGACTTATGGAATGTGGTCCCACCATGGAAATTCCAAGGGCCGGCATTGGCTGAGTAACCTGACTGTATCTAATTCCTCATTGCATCGGCCCCGTGGGGGCGGTACCTGTATATACGCACAAGCTACACTTCACATCACGAAACCCTGCCGCTTGAACCTATCGAACCCAGGATCGACGCTTCAGCACACCTTACTAATGTTCATAGTGTCCTGTCGGAAACTAATAAATCGGCCCACTGGAGTCCTAATGCGCGGCTAGATTAAAGTCTCGATCGGATAGAGCCCCGACTTACCTGGGGCCCAACAAATAAATGTTTTCGCCCCAGGACAGGGAGACGATAAGCTCGGAGGGTGTGCCTCATCGGCTTAGCTGGCTGCTCAGTAGCCCAAGCATGCCCTCTAGGAAAAGTCTCGCGCCAGGGTGTCCAGTATCTGCTCTAACCATAGTTCAGCGAATGTGACTATCCAGCCCTGCCGGAGTCTCTTCTACCATCCACCTCCGGCAGTCAGCATGCTCACCGACGGGTAA
+
+--- Prefix Trie Matching ---
+Runtime: 0.0 seconds
+Patterns and Positions:
+Pattern: GTACTTTCCG
+Total occurrences: 1
+Positions: [1262]
+
+--- Approximate Pattern Matching ---
+Runtime: 6.6 seconds
+Patterns and Positions:
+Pattern: AAAAAAGCCC
+Total occurrences: 2
+Positions: [166, 1263]
+Pattern: AAAAAATGTC
+Total occurrences: 1
+Positions: [123]
+Pattern: AAAAAGCCCG
+Total occurrences: 1
+Positions: [167]
+Pattern: AAAAATACCG
+Total occurrences: 2
+Positions: [16, 168]
+Pattern: AAAAATGACA
+Total occurrences: 1
+Positions: [164]
+Pattern: AAAAATGTCG
+Total occurrences: 1
+Positions: [168]
+Pattern: AAAACTATCG
+Total occurrences: 1
+Positions: [645]
+Pattern: AAAAGCCCGC
+Total occurrences: 1
+Positions: [814]
+Pattern: AAAATACCGG
+Total occurrences: 1
+Positions: [833]
+Pattern: AAAATGACAG
+Total occurrences: 2
+Positions: [645, 814]
+Pattern: AAAATGGTTG
+Total occurrences: 2
+Positions: [645, 814]
+Pattern: AAAATGTCGA
+Total occurrences: 1
+Positions: [993]
+Pattern: AAAATTACCA
+Total occurrences: 1
+Positions: [442]
+Pattern: AAAATTGCTG
+Total occurrences: 1
+Positions: [168]
+Pattern: AAACACAGAA
+Total occurrences: 2
+Positions: [361, 1227]
+Pattern: AAACTATCGG
+Total occurrences: 1
+Positions: [479]
+Pattern: AAAGCAATGC
+Total occurrences: 1
+Positions: [766]
+Pattern: AAAGCCCGCA
+Total occurrences: 1
+Positions: [151]
+Pattern: AAAGGGATCT
+Total occurrences: 1
+Positions: [501]
+Pattern: AAATCGATGT
+Total occurrences: 1
+Positions: [1351]
+Pattern: AAATGACAGA
+Total occurrences: 2
+Positions: [287, 360]
+Pattern: AAATGCAGAA
+Total occurrences: 2
+Positions: [553, 1325]
+Pattern: AAATGTCGAT
+Total occurrences: 3
+Positions: [170, 666, 994]
+Pattern: AAATTTATTG
+Total occurrences: 1
+Positions: [17]
+Pattern: AACAAGTTTC
+Total occurrences: 1
+Positions: [808]
+Pattern: AACACAGAAA
+Total occurrences: 2
+Positions: [165, 670]
+Pattern: AACAGTGCGG
+Total occurrences: 1
+Positions: [168]
+Pattern: AACATCCATG
+Total occurrences: 1
+Positions: [500]
+Pattern: AACCAATATA
+Total occurrences: 2
+Positions: [264, 361]
+Pattern: AACCATGCGA
+Total occurrences: 1
+Positions: [648]
+Pattern: AACCGCATCA
+Total occurrences: 2
+Positions: [235, 553]
+Pattern: AACCTGCCGG
+Total occurrences: 1
+Positions: [114]
+Pattern: AACCTTAACA
+Total occurrences: 3
+Positions: [425, 442, 567]
+Pattern: AACGTTTTCT
+Total occurrences: 1
+Positions: [1062]
+Pattern: AACTATCGGC
+Total occurrences: 1
+Positions: [183]
+Pattern: AACTGGTGGT
+Total occurrences: 2
+Positions: [302, 924]
+Pattern: AAGAATTCGC
+Total occurrences: 2
+Positions: [13, 1146]
+Pattern: AAGACAGACA
+Total occurrences: 4
+Positions: [165, 304, 502, 1291]
+Pattern: AAGAGATCAT
+Total occurrences: 1
+Positions: [897]
+Pattern: AAGCAATGCC
+Total occurrences: 1
+Positions: [767]
+Pattern: AAGCGATGGA
+Total occurrences: 2
+Positions: [822, 1227]
+Pattern: AAGGGCAGGT
+Total occurrences: 1
+Positions: [1279]
+Pattern: AAGTTCGGCG
+Total occurrences: 1
+Positions: [952]
+Pattern: AATAAATATA
+Total occurrences: 2
+Positions: [361, 476]
+Pattern: AATACCGGTA
+Total occurrences: 1
+Positions: [957]
+Pattern: AATATCAGCG
+Total occurrences: 1
+Positions: [1283]
+Pattern: AATCCGCAGG
+Total occurrences: 3
+Positions: [344, 636, 647]
+Pattern: AATGAAAAGG
+Total occurrences: 3
+Positions: [251, 535, 679]
+Pattern: AATGAAAGGG
+Total occurrences: 2
+Positions: [679, 680]
+Pattern: AATGACAGAG
+Total occurrences: 2
+Positions: [361, 1179]
+Pattern: AATGCAGAAC
+Total occurrences: 1
+Positions: [356]
+Pattern: AATGCCAGGC
+Total occurrences: 1
+Positions: [1279]
+Pattern: AATGTGATCA
+Total occurrences: 3
+Positions: [246, 501, 796]
+Pattern: AATTACCAAC
+Total occurrences: 1
+Positions: [999]
+Pattern: ACAAATAAAA
+Total occurrences: 3
+Positions: [551, 812, 949]
+Pattern: ACAACATCCA
+Total occurrences: 1
+Positions: [359]
+Pattern: ACAAGACAGA
+Total occurrences: 2
+Positions: [143, 895]
+Pattern: ACACAACATC
+Total occurrences: 1
+Positions: [1046]
+Pattern: ACACAGAAAA
+Total occurrences: 3
+Positions: [949, 961, 1046]
+Pattern: ACAGAAAAAA
+Total occurrences: 1
+Positions: [1046]
+Pattern: ACAGACAAAT
+Total occurrences: 3
+Positions: [292, 303, 1059]
+Pattern: ACAGAGTACA
+Total occurrences: 2
+Positions: [292, 1059]
+Pattern: ACAGGAAACA
+Total occurrences: 1
+Positions: [554]
+Pattern: ACAGGGGGAA
+Total occurrences: 2
+Positions: [155, 925]
+Pattern: ACATCCATGA
+Total occurrences: 1
+Positions: [1351]
+Pattern: ACATGAACAA
+Total occurrences: 1
+Positions: [551]
+Pattern: ACATGGCGAT
+Total occurrences: 2
+Positions: [170, 551]
+Pattern: ACATGTTCTG
+Total occurrences: 1
+Positions: [568]
+Pattern: ACCAACCATC
+Total occurrences: 1
+Positions: [845]
+Pattern: ACCAATATAG
+Total occurrences: 2
+Positions: [115, 1100]
+Pattern: ACCACAGGTA
+Total occurrences: 1
+Positions: [1254]
+Pattern: ACCACCACCA
+Total occurrences: 1
+Positions: [854]
+Pattern: ACCACCATCA
+Total occurrences: 1
+Positions: [725]
+Pattern: ACCACCATTA
+Total occurrences: 1
+Positions: [900]
+Pattern: ACCATCACCA
+Total occurrences: 1
+Positions: [854]
+Pattern: ACCATCTGGT
+Total occurrences: 1
+Positions: [565]
+Pattern: ACCATGCGAG
+Total occurrences: 1
+Positions: [1003]
+Pattern: ACCATTACCA
+Total occurrences: 1
+Positions: [854]
+Pattern: ACCCGCGCCA
+Total occurrences: 1
+Positions: [235]
+Pattern: ACCGCATCAG
+Total occurrences: 1
+Positions: [508]
+Pattern: ACCGCCGGTA
+Total occurrences: 1
+Positions: [73]
+Pattern: ACCGTACTTT
+Total occurrences: 2
+Positions: [1141, 1197]
+Pattern: ACCGTTGATA
+Total occurrences: 1
+Positions: [73]
+Pattern: ACCTGAACAG
+Total occurrences: 1
+Positions: [100]
+Pattern: ACCTGCCGGT
+Total occurrences: 3
+Positions: [50, 317, 384]
+Pattern: ACCTGCTCGC
+Total occurrences: 3
+Positions: [384, 568, 1185]
+Pattern: ACCTTAACAA
+Total occurrences: 2
+Positions: [100, 597]
+Pattern: ACCTTGAATC
+Total occurrences: 1
+Positions: [597]
+Pattern: ACGATGATAA
+Total occurrences: 1
+Positions: [145]
+Pattern: ACGCCAGGCT
+Total occurrences: 1
+Positions: [494]
+Pattern: ACGCGCTGAC
+Total occurrences: 2
+Positions: [520, 1280]
+Pattern: ACGCTGATCG
+Total occurrences: 1
+Positions: [735]
+Pattern: ACGGTGATCG
+Total occurrences: 2
+Positions: [735, 1024]
+Pattern: ACGGTTGAAA
+Total occurrences: 1
+Positions: [963]
+Pattern: ACGTATTTTT
+Total occurrences: 1
+Positions: [115]
+Pattern: ACGTTTTCTG
+Total occurrences: 1
+Positions: [135]
+Pattern: ACTATCGGCG
+Total occurrences: 2
+Positions: [413, 1283]
+Pattern: ACTCTCTTAC
+Total occurrences: 1
+Positions: [379]
+Pattern: ACTGCTGTGA
+Total occurrences: 1
+Positions: [385]
+Pattern: ACTTCGGCGC
+Total occurrences: 1
+Positions: [730]
+Pattern: ACTTGCCAGC
+Total occurrences: 1
+Positions: [730]
+Pattern: ACTTTAACCA
+Total occurrences: 3
+Positions: [597, 681, 860]
+Pattern: ACTTTCCGCC
+Total occurrences: 2
+Positions: [379, 643]
+Pattern: AGAAAAAAGC
+Total occurrences: 2
+Positions: [166, 1263]
+Pattern: AGAACGTATT
+Total occurrences: 1
+Positions: [233]
+Pattern: AGAATTCGCT
+Total occurrences: 2
+Positions: [391, 1147]
+Pattern: AGACAAATAA
+Total occurrences: 1
+Positions: [607]
+Pattern: AGACAGACAA
+Total occurrences: 2
+Positions: [305, 1292]
+Pattern: AGATACTTTA
+Total occurrences: 1
+Positions: [891]
+Pattern: AGATCACGAG
+Total occurrences: 1
+Positions: [666]
+Pattern: AGATCCCCTG
+Total occurrences: 1
+Positions: [414]
+Pattern: AGATTACGTC
+Total occurrences: 1
+Positions: [426]
+Pattern: AGCAGCACAT
+Total occurrences: 1
+Positions: [391]
+Pattern: AGCCCGCACC
+Total occurrences: 1
+Positions: [456]
+Pattern: AGCGACCGTA
+Total occurrences: 2
+Positions: [46, 335]
+Pattern: AGCGACGATG
+Total occurrences: 2
+Positions: [204, 1093]
+Pattern: AGCGATGCAG
+Total occurrences: 1
+Positions: [76]
+Pattern: AGCGATGGAA
+Total occurrences: 3
+Positions: [76, 868, 1228]
+Pattern: AGCGCGCAGC
+Total occurrences: 3
+Positions: [278, 456, 659]
+Pattern: AGCGTCTCCG
+Total occurrences: 1
+Positions: [714]
+Pattern: AGGAAACACA
+Total occurrences: 2
+Positions: [123, 1028]
+Pattern: AGGAACGCTG
+Total occurrences: 2
+Positions: [654, 1161]
+Pattern: AGGACTTGCC
+Total occurrences: 2
+Positions: [4, 571]
+Pattern: AGGCAAGGGC
+Total occurrences: 4
+Positions: [166, 767, 1105, 1263]
+Pattern: AGGCGCGTGG
+Total occurrences: 1
+Positions: [271]
+Pattern: AGGCGGGCAG
+Total occurrences: 4
+Positions: [455, 468, 781, 1289]
+Pattern: AGGCTGCTGA
+Total occurrences: 3
+Positions: [841, 1018, 1316]
+Pattern: AGGGATCTCT
+Total occurrences: 2
+Positions: [577, 881]
+Pattern: AGGGCAGGTA
+Total occurrences: 1
+Positions: [157]
+Pattern: AGGTAACAAC
+Total occurrences: 1
+Positions: [999]
+Pattern: AGTGCCCGGA
+Total occurrences: 1
+Positions: [609]
+Pattern: AGTGGCAAAT
+Total occurrences: 2
+Positions: [737, 1164]
+Pattern: AGTGTTGAAG
+Total occurrences: 1
+Positions: [759]
+Pattern: AGTTCCAGAT
+Total occurrences: 2
+Positions: [851, 1043]
+Pattern: AGTTCGGCGG
+Total occurrences: 1
+Positions: [171]
+Pattern: ATAAAAATGA
+Total occurrences: 2
+Positions: [670, 1297]
+Pattern: ATAACCTGCC
+Total occurrences: 1
+Positions: [559]
+Pattern: ATACCGGTAA
+Total occurrences: 1
+Positions: [1297]
+Pattern: ATACTTTAAC
+Total occurrences: 1
+Positions: [506]
+Pattern: ATAGCATCAA
+Total occurrences: 1
+Positions: [292]
+Pattern: ATATATCGCC
+Total occurrences: 1
+Positions: [341]
+Pattern: ATATCAGCGA
+Total occurrences: 1
+Positions: [1284]
+Pattern: ATCAAACATG
+Total occurrences: 3
+Positions: [1008, 1253, 1376]
+Pattern: ATCAACGCCG
+Total occurrences: 1
+Positions: [1100]
+Pattern: ATCAATTTAA
+Total occurrences: 3
+Positions: [289, 365, 1088]
+Pattern: ATCACATGAT
+Total occurrences: 1
+Positions: [565]
+Pattern: ATCACGAGGT
+Total occurrences: 2
+Positions: [565, 1224]
+Pattern: ATCAGCACCA
+Total occurrences: 1
+Positions: [854]
+Pattern: ATCAGTGGCA
+Total occurrences: 4
+Positions: [201, 698, 764, 1308]
+Pattern: ATCCCCTGTC
+Total occurrences: 2
+Positions: [445, 1338]
+Pattern: ATCCGCAGGC
+Total occurrences: 1
+Positions: [445]
+Pattern: ATCCGGTAGA
+Total occurrences: 1
+Positions: [637]
+Pattern: ATCGATCCGG
+Total occurrences: 1
+Positions: [868]
+Pattern: ATCGATGTCC
+Total occurrences: 1
+Positions: [1330]
+Pattern: ATCGCCCAGT
+Total occurrences: 1
+Positions: [971]
+Pattern: ATCGCGATTA
+Total occurrences: 1
+Positions: [934]
+Pattern: ATCGCGTCAC
+Total occurrences: 3
+Positions: [461, 659, 1203]
+Pattern: ATCGGCGCGT
+Total occurrences: 1
+Positions: [971]
+Pattern: ATCTGGTGGC
+Total occurrences: 7
+Positions: [20, 284, 302, 320, 400, 924, 1273]
+Pattern: ATGAAAAGGG
+Total occurrences: 4
+Positions: [606, 642, 680, 894]
+Pattern: ATGAAAGGGA
+Total occurrences: 1
+Positions: [284]
+Pattern: ATGAACAAGT
+Total occurrences: 1
+Positions: [1224]
+Pattern: ATGACAGAGT
+Total occurrences: 4
+Positions: [148, 289, 1088, 1345]
+Pattern: ATGATTGGGA
+Total occurrences: 2
+Positions: [1037, 1301]
+Pattern: ATGGAACTCT
+Total occurrences: 1
+Positions: [652]
+Pattern: ATGGCGATGT
+Total occurrences: 3
+Positions: [205, 766, 821]
+Pattern: ATGGCGTGTA
+Total occurrences: 3
+Positions: [18, 41, 322]
+Pattern: ATGGTTCCGA
+Total occurrences: 1
+Positions: [80]
+Pattern: ATGTGATCAA
+Total occurrences: 1
+Positions: [247]
+Pattern: ATGTTCTGCA
+Total occurrences: 4
+Positions: [135, 195, 252, 1067]
+Pattern: ATTAAAAATA
+Total occurrences: 1
+Positions: [476]
+Pattern: ATTACCACAG
+Total occurrences: 2
+Positions: [763, 1352]
+Pattern: ATTACCACCA
+Total occurrences: 1
+Positions: [921]
+Pattern: ATTCCGCCGC
+Total occurrences: 1
+Positions: [647]
+Pattern: ATTCGCTCAG
+Total occurrences: 1
+Positions: [940]
+Pattern: ATTCTGGAAA
+Total occurrences: 1
+Positions: [961]
+Pattern: ATTGGGATGG
+Total occurrences: 2
+Positions: [308, 682]
+Pattern: ATTTGCCGTG
+Total occurrences: 1
+Positions: [384]
+Pattern: CAAACATGTT
+Total occurrences: 2
+Positions: [678, 950]
+Pattern: CAAATAAAAA
+Total occurrences: 1
+Positions: [163]
+Pattern: CAAATGCAGA
+Total occurrences: 3
+Positions: [552, 694, 1169]
+Pattern: CAACATCCAT
+Total occurrences: 1
+Positions: [976]
+Pattern: CAACCATCTG
+Total occurrences: 1
+Positions: [807]
+Pattern: CAAGACAGAC
+Total occurrences: 4
+Positions: [35, 303, 896, 1148]
+Pattern: CAAGAGATCA
+Total occurrences: 1
+Positions: [1041]
+Pattern: CAAGGGCAGG
+Total occurrences: 2
+Positions: [533, 951]
+Pattern: CAATGATTGA
+Total occurrences: 1
+Positions: [1047]
+Pattern: CACAGAAAAA
+Total occurrences: 4
+Positions: [163, 291, 786, 945]
+Pattern: CACAGGTAAC
+Total occurrences: 1
+Positions: [1201]
+Pattern: CACATGAACA
+Total occurrences: 1
+Positions: [918]
+Pattern: CACATGATCC
+Total occurrences: 3
+Positions: [519, 596, 1041]
+Pattern: CACCATCACC
+Total occurrences: 1
+Positions: [596]
+Pattern: CACCATTACC
+Total occurrences: 1
+Positions: [514]
+Pattern: CACCCTCGCA
+Total occurrences: 2
+Positions: [567, 1184]
+Pattern: CACCTGAACA
+Total occurrences: 1
+Positions: [567]
+Pattern: CACGGTGATC
+Total occurrences: 3
+Positions: [234, 795, 1140]
+Pattern: CACGGTTGAA
+Total occurrences: 1
+Positions: [962]
+Pattern: CAGAAAAAAG
+Total occurrences: 2
+Positions: [163, 639]
+Pattern: CAGAACGTAT
+Total occurrences: 1
+Positions: [152]
+Pattern: CAGACAAATA
+Total occurrences: 3
+Positions: [293, 304, 727]
+Pattern: CAGATACTTT
+Total occurrences: 1
+Positions: [1258]
+Pattern: CAGATCCCGG
+Total occurrences: 2
+Positions: [639, 665]
+Pattern: CAGCACATGA
+Total occurrences: 1
+Positions: [947]
+Pattern: CAGCACCACC
+Total occurrences: 2
+Positions: [850, 1110]
+Pattern: CAGCAGCACA
+Total occurrences: 2
+Positions: [944, 1356]
+Pattern: CAGCCAGATC
+Total occurrences: 1
+Positions: [690]
+Pattern: CAGCCGGGAT
+Total occurrences: 1
+Positions: [1245]
+Pattern: CAGCGCGCAG
+Total occurrences: 2
+Positions: [455, 468]
+Pattern: CAGGAACGCT
+Total occurrences: 1
+Positions: [881]
+Pattern: CAGGACTTGC
+Total occurrences: 3
+Positions: [570, 603, 1189]
+Pattern: CAGGCAAGGG
+Total occurrences: 2
+Positions: [74, 1175]
+Pattern: CAGGCGCCAG
+Total occurrences: 1
+Positions: [36]
+Pattern: CAGGCTGCTG
+Total occurrences: 2
+Positions: [742, 1017]
+Pattern: CAGGGGGAAT
+Total occurrences: 2
+Positions: [156, 926]
+Pattern: CAGGTAACGG
+Total occurrences: 1
+Positions: [1256]
+Pattern: CAGGTAGCGA
+Total occurrences: 1
+Positions: [367]
+Pattern: CAGTGCCCGG
+Total occurrences: 2
+Positions: [751, 1359]
+Pattern: CAGTGGCAAA
+Total occurrences: 2
+Positions: [277, 736]
+Pattern: CAGTTCCAGA
+Total occurrences: 2
+Positions: [850, 1110]
+Pattern: CATCAACGCC
+Total occurrences: 1
+Positions: [1002]
+Pattern: CATCAGCACC
+Total occurrences: 1
+Positions: [1356]
+Pattern: CATCAGTGGC
+Total occurrences: 2
+Positions: [505, 1296]
+Pattern: CATCGCCCAG
+Total occurrences: 1
+Positions: [970]
+Pattern: CATCGCGTCA
+Total occurrences: 3
+Positions: [291, 460, 1198]
+Pattern: CATCTGGTGG
+Total occurrences: 4
+Positions: [316, 319, 593, 847]
+Pattern: CATGAACAAG
+Total occurrences: 1
+Positions: [905]
+Pattern: CATGACAGGG
+Total occurrences: 2
+Positions: [224, 1179]
+Pattern: CATGGCGATG
+Total occurrences: 3
+Positions: [204, 820, 1278]
+Pattern: CATGGTATCA
+Total occurrences: 1
+Positions: [1026]
+Pattern: CATGTCTCGC
+Total occurrences: 1
+Positions: [701]
+Pattern: CATGTTCTGC
+Total occurrences: 2
+Positions: [194, 260]
+Pattern: CATTACCACC
+Total occurrences: 3
+Positions: [850, 920, 1110]
+Pattern: CCAACCATCT
+Total occurrences: 1
+Positions: [592]
+Pattern: CCAATATAGG
+Total occurrences: 1
+Positions: [689]
+Pattern: CCACAGGTAA
+Total occurrences: 1
+Positions: [1255]
+Pattern: CCACCATCAC
+Total occurrences: 1
+Positions: [1139]
+Pattern: CCAGATCCCG
+Total occurrences: 2
+Positions: [619, 946]
+Pattern: CCAGCAGCAC
+Total occurrences: 1
+Positions: [943]
+Pattern: CCAGCCAGAT
+Total occurrences: 2
+Positions: [35, 619]
+Pattern: CCAGCGCGCA
+Total occurrences: 2
+Positions: [619, 1153]
+Pattern: CCAGGCAAGG
+Total occurrences: 1
+Positions: [1278]
+Pattern: CCAGGCTGCT
+Total occurrences: 2
+Positions: [236, 1091]
+Pattern: CCAGGTGCCG
+Total occurrences: 1
+Positions: [569]
+Pattern: CCAGTTCCAG
+Total occurrences: 2
+Positions: [849, 855]
+Pattern: CCATCGCCCA
+Total occurrences: 1
+Positions: [969]
+Pattern: CCATCTGGTG
+Total occurrences: 1
+Positions: [846]
+Pattern: CCATGAACCG
+Total occurrences: 1
+Positions: [598]
+Pattern: CCATGCGAGT
+Total occurrences: 1
+Positions: [650]
+Pattern: CCATGTCTCG
+Total occurrences: 1
+Positions: [518]
+Pattern: CCATTACCAC
+Total occurrences: 1
+Positions: [855]
+Pattern: CCCAGTTCCA
+Total occurrences: 2
+Positions: [854, 1090]
+Pattern: CCCCTGTCTG
+Total occurrences: 1
+Positions: [1073]
+Pattern: CCCGCACCTG
+Total occurrences: 1
+Positions: [661]
+Pattern: CCCGCTTGCA
+Total occurrences: 1
+Positions: [101]
+Pattern: CCCGGATAGC
+Total occurrences: 1
+Positions: [576]
+Pattern: CCCTGTCTGA
+Total occurrences: 2
+Positions: [34, 1047]
+Pattern: CCGATATTCT
+Total occurrences: 1
+Positions: [60]
+Pattern: CCGCACCTGA
+Total occurrences: 2
+Positions: [662, 1198]
+Pattern: CCGCAGGCGC
+Total occurrences: 1
+Positions: [447]
+Pattern: CCGCATCAGC
+Total occurrences: 1
+Positions: [266]
+Pattern: CCGCCAGCCA
+Total occurrences: 1
+Positions: [494]
+Pattern: CCGCCGCCGT
+Total occurrences: 1
+Positions: [1268]
+Pattern: CCGCCGTGCT
+Total occurrences: 1
+Positions: [113]
+Pattern: CCGCCTGTTT
+Total occurrences: 2
+Positions: [74, 494]
+Pattern: CCGCGCCAGG
+Total occurrences: 1
+Positions: [751]
+Pattern: CCGCGCTGAT
+Total occurrences: 1
+Positions: [236]
+Pattern: CCGGACGCCA
+Total occurrences: 2
+Positions: [818, 1248]
+Pattern: CCGGATAGCA
+Total occurrences: 1
+Positions: [1248]
+Pattern: CCGGCCGATC
+Total occurrences: 1
+Positions: [943]
+Pattern: CCGGGAATGA
+Total occurrences: 1
+Positions: [321]
+Pattern: CCGGGATCTC
+Total occurrences: 2
+Positions: [880, 1335]
+Pattern: CCGGTAGAAA
+Total occurrences: 2
+Positions: [576, 963]
+Pattern: CCGTACTTTC
+Total occurrences: 4
+Positions: [222, 603, 1189, 1259]
+Pattern: CCGTATCGCC
+Total occurrences: 2
+Positions: [856, 1213]
+Pattern: CCGTGCTGGC
+Total occurrences: 2
+Positions: [520, 1025]
+Pattern: CCGTGGCGAA
+Total occurrences: 1
+Positions: [175]
+Pattern: CCTACCAGGA
+Total occurrences: 2
+Positions: [957, 1037]
+Pattern: CCTCGCACCA
+Total occurrences: 1
+Positions: [1179]
+Pattern: CCTGATGGCG
+Total occurrences: 1
+Positions: [1274]
+Pattern: CCTGCCGGTT
+Total occurrences: 1
+Positions: [217]
+Pattern: CCTGCTCGCA
+Total occurrences: 3
+Positions: [21, 101, 619]
+Pattern: CCTGCTGGGT
+Total occurrences: 1
+Positions: [101]
+Pattern: CCTGTCTGAT
+Total occurrences: 5
+Positions: [17, 671, 682, 701, 1205]
+Pattern: CCTGTGACCC
+Total occurrences: 2
+Positions: [519, 1363]
+Pattern: CCTGTTTACG
+Total occurrences: 1
+Positions: [101]
+Pattern: CCTTAACAAC
+Total occurrences: 1
+Positions: [613]
+Pattern: CCTTCACCCT
+Total occurrences: 3
+Positions: [598, 747, 1283]
+Pattern: CCTTGAATCT
+Total occurrences: 2
+Positions: [60, 475]
+Pattern: CGACCAGAGA
+Total occurrences: 1
+Positions: [1292]
+Pattern: CGACCGTACT
+Total occurrences: 2
+Positions: [113, 997]
+Pattern: CGACGATGAT
+Total occurrences: 1
+Positions: [950]
+Pattern: CGACTCGCCG
+Total occurrences: 1
+Positions: [1295]
+Pattern: CGATCCGGTA
+Total occurrences: 1
+Positions: [78]
+Pattern: CGATCGCGAT
+Total occurrences: 2
+Positions: [175, 666]
+Pattern: CGATGCAGAA
+Total occurrences: 1
+Positions: [282]
+Pattern: CGATGGAACT
+Total occurrences: 2
+Positions: [78, 650]
+Pattern: CGATGGCGTG
+Total occurrences: 1
+Positions: [78]
+Pattern: CGATTATGGC
+Total occurrences: 1
+Positions: [870]
+Pattern: CGCACCTGAA
+Total occurrences: 1
+Positions: [663]
+Pattern: CGCAGCCGGG
+Total occurrences: 2
+Positions: [317, 448]
+Pattern: CGCATCAGCA
+Total occurrences: 1
+Positions: [724]
+Pattern: CGCCAGCAGC
+Total occurrences: 2
+Positions: [495, 1137]
+Pattern: CGCCAGCCAG
+Total occurrences: 2
+Positions: [495, 1292]
+Pattern: CGCCAGGAAC
+Total occurrences: 1
+Positions: [611]
+Pattern: CGCCAGGCTG
+Total occurrences: 3
+Positions: [447, 495, 733]
+Pattern: CGCCAGGTGC
+Total occurrences: 2
+Positions: [319, 1137]
+Pattern: CGCCATGTCT
+Total occurrences: 1
+Positions: [1106]
+Pattern: CGCCGCCAGC
+Total occurrences: 1
+Positions: [964]
+Pattern: CGCCGCCATG
+Total occurrences: 1
+Positions: [625]
+Pattern: CGCCGCGCTG
+Total occurrences: 1
+Positions: [1161]
+Pattern: CGCCGGGATC
+Total occurrences: 1
+Positions: [933]
+Pattern: CGCCGTGCTG
+Total occurrences: 2
+Positions: [468, 1140]
+Pattern: CGCCTGTTTA
+Total occurrences: 2
+Positions: [495, 1176]
+Pattern: CGCGATTATG
+Total occurrences: 1
+Positions: [432]
+Pattern: CGCGCAGCCG
+Total occurrences: 1
+Positions: [661]
+Pattern: CGCGCCGGGA
+Total occurrences: 2
+Positions: [609, 1031]
+Pattern: CGCGCTGACT
+Total occurrences: 3
+Positions: [64, 136, 661]
+Pattern: CGCGCTGATT
+Total occurrences: 2
+Positions: [64, 661]
+Pattern: CGCGGAATCG
+Total occurrences: 2
+Positions: [466, 1026]
+Pattern: CGCGTCACGG
+Total occurrences: 5
+Positions: [458, 769, 1205, 1212, 1256]
+Pattern: CGCGTGTTTT
+Total occurrences: 1
+Positions: [419]
+Pattern: CGCTCAGATC
+Total occurrences: 1
+Positions: [943]
+Pattern: CGCTGACTGC
+Total occurrences: 4
+Positions: [138, 310, 1137, 1230]
+Pattern: CGCTGATCGG
+Total occurrences: 2
+Positions: [239, 1359]
+Pattern: CGCTGATTTG
+Total occurrences: 1
+Positions: [1230]
+Pattern: CGCTTGCACG
+Total occurrences: 1
+Positions: [84]
+Pattern: CGGAATCGAC
+Total occurrences: 2
+Positions: [548, 1249]
+Pattern: CGGAATGTGA
+Total occurrences: 3
+Positions: [793, 973, 1176]
+Pattern: CGGACGCCAG
+Total occurrences: 1
+Positions: [1336]
+Pattern: CGGATAGCAT
+Total occurrences: 1
+Positions: [654]
+Pattern: CGGCCCGGGA
+Total occurrences: 1
+Positions: [1031]
+Pattern: CGGCCGATCA
+Total occurrences: 2
+Positions: [393, 743]
+Pattern: CGGCGCCAAA
+Total occurrences: 1
+Positions: [277]
+Pattern: CGGCGCGTGT
+Total occurrences: 1
+Positions: [460]
+Pattern: CGGCGGCCAG
+Total occurrences: 1
+Positions: [468]
+Pattern: CGGCGGTACA
+Total occurrences: 1
+Positions: [75]
+Pattern: CGGGAATGAA
+Total occurrences: 2
+Positions: [322, 434]
+Pattern: CGGGACTTCT
+Total occurrences: 2
+Positions: [603, 1189]
+Pattern: CGGGATCTCG
+Total occurrences: 3
+Positions: [2, 577, 881]
+Pattern: CGGGCAGATA
+Total occurrences: 1
+Positions: [454]
+Pattern: CGGGCTGACG
+Total occurrences: 2
+Positions: [136, 742]
+Pattern: CGGGCTTTAC
+Total occurrences: 1
+Positions: [428]
+Pattern: CGGGCTTTTT
+Total occurrences: 1
+Positions: [1017]
+Pattern: CGGTAGAAAA
+Total occurrences: 2
+Positions: [603, 1189]
+Pattern: CGGTGATCGA
+Total occurrences: 2
+Positions: [1025, 1359]
+Pattern: CGGTGGGCCA
+Total occurrences: 1
+Positions: [1084]
+Pattern: CGGTGGTGCT
+Total occurrences: 2
+Positions: [175, 326]
+Pattern: CGGTTAAAGG
+Total occurrences: 1
+Positions: [4]
+Pattern: CGGTTGAAAA
+Total occurrences: 2
+Positions: [603, 1189]
+Pattern: CGTACTTTCC
+Total occurrences: 3
+Positions: [250, 558, 1260]
+Pattern: CGTCACGGTG
+Total occurrences: 1
+Positions: [771]
+Pattern: CGTCGATGGC
+Total occurrences: 2
+Positions: [716, 1272]
+Pattern: CGTCTCCGGC
+Total occurrences: 5
+Positions: [409, 684, 716, 1214, 1272]
+Pattern: CGTCTGGTTG
+Total occurrences: 1
+Positions: [1207]
+Pattern: CGTGCTGGCC
+Total occurrences: 2
+Positions: [136, 454]
+Pattern: CGTGGGCATC
+Total occurrences: 2
+Positions: [819, 1085]
+Pattern: CGTTTTCTGC
+Total occurrences: 3
+Positions: [194, 310, 1311]
+Pattern: CTATCGGCGG
+Total occurrences: 1
+Positions: [1284]
+Pattern: CTATTCCGCC
+Total occurrences: 1
+Positions: [261]
+Pattern: CTCAGATCAA
+Total occurrences: 2
+Positions: [352, 1199]
+Pattern: CTCCGGCCCG
+Total occurrences: 1
+Positions: [687]
+Pattern: CTCGCAGGAC
+Total occurrences: 1
+Positions: [1203]
+Pattern: CTCGCGCCGG
+Total occurrences: 1
+Positions: [1203]
+Pattern: CTCTAACCTT
+Total occurrences: 1
+Positions: [844]
+Pattern: CTCTTACTTC
+Total occurrences: 2
+Positions: [1230, 1369]
+Pattern: CTGAACAGTG
+Total occurrences: 3
+Positions: [231, 642, 894]
+Pattern: CTGACCTGCT
+Total occurrences: 3
+Positions: [132, 663, 1240]
+Pattern: CTGACGCGTA
+Total occurrences: 3
+Positions: [102, 322, 1021]
+Pattern: CTGACTGCTG
+Total occurrences: 1
+Positions: [140]
+Pattern: CTGATCGGCG
+Total occurrences: 6
+Positions: [160, 675, 711, 876, 996, 1327]
+Pattern: CTGATGGCGG
+Total occurrences: 1
+Positions: [1275]
+Pattern: CTGATTTGCC
+Total occurrences: 1
+Positions: [1275]
+Pattern: CTGCATGGTA
+Total occurrences: 3
+Positions: [555, 902, 1232]
+Pattern: CTGCTCGCAG
+Total occurrences: 1
+Positions: [22]
+Pattern: CTGCTGGGTC
+Total occurrences: 2
+Positions: [189, 1275]
+Pattern: CTGCTGTGAA
+Total occurrences: 2
+Positions: [22, 386]
+Pattern: CTGGAAAGCA
+Total occurrences: 2
+Positions: [92, 322]
+Pattern: CTGGCCGCCT
+Total occurrences: 1
+Positions: [1021]
+Pattern: CTGGCGGTGG
+Total occurrences: 3
+Positions: [205, 316, 821]
+Pattern: CTGGGTCAGT
+Total occurrences: 2
+Positions: [675, 682]
+Pattern: CTGGTGGCAA
+Total occurrences: 4
+Positions: [156, 396, 570, 926]
+Pattern: CTGGTGGTGC
+Total occurrences: 1
+Positions: [570]
+Pattern: CTGGTTGCAA
+Total occurrences: 1
+Positions: [102]
+Pattern: CTGTCTGATT
+Total occurrences: 2
+Positions: [683, 1049]
+Pattern: CTGTGACCCG
+Total occurrences: 3
+Positions: [68, 487, 1364]
+Pattern: CTGTTTACGC
+Total occurrences: 1
+Positions: [241]
+Pattern: CTTAACAACA
+Total occurrences: 1
+Positions: [957]
+Pattern: CTTACTTCGG
+Total occurrences: 3
+Positions: [132, 1240, 1371]
+Pattern: CTTCACCCTC
+Total occurrences: 1
+Positions: [1284]
+Pattern: CTTGAATCTA
+Total occurrences: 4
+Positions: [61, 476, 875, 1179]
+Pattern: CTTGCACGGT
+Total occurrences: 1
+Positions: [27]
+Pattern: CTTGCCAGCG
+Total occurrences: 1
+Positions: [682]
+Pattern: CTTTACCGCC
+Total occurrences: 2
+Positions: [380, 409]
+Pattern: CTTTCCGCCC
+Total occurrences: 1
+Positions: [985]
+Pattern: GAAAAAAGCC
+Total occurrences: 2
+Positions: [606, 644]
+Pattern: GAAAAGGGTG
+Total occurrences: 1
+Positions: [167]
+Pattern: GAAAATGGTT
+Total occurrences: 1
+Positions: [167]
+Pattern: GAAAATTACC
+Total occurrences: 1
+Positions: [644]
+Pattern: GAAACACAGA
+Total occurrences: 4
+Positions: [154, 287, 360, 1178]
+Pattern: GAAAGCAATG
+Total occurrences: 1
+Positions: [1278]
+Pattern: GAAATCGATG
+Total occurrences: 1
+Positions: [500]
+Pattern: GAACAGTGCG
+Total occurrences: 1
+Positions: [644]
+Pattern: GAACCGCATC
+Total occurrences: 1
+Positions: [15]
+Pattern: GAACTCTCTT
+Total occurrences: 1
+Positions: [373]
+Pattern: GAACTGGTGG
+Total occurrences: 2
+Positions: [593, 847]
+Pattern: GAAGCGATGG
+Total occurrences: 4
+Positions: [79, 205, 821, 951]
+Pattern: GAATACAAGA
+Total occurrences: 1
+Positions: [1251]
+Pattern: GAATCTACCG
+Total occurrences: 3
+Positions: [227, 306, 1251]
+Pattern: GAATGTGATC
+Total occurrences: 4
+Positions: [234, 795, 975, 992]
+Pattern: GACAGACAAA
+Total occurrences: 1
+Positions: [154]
+Pattern: GACAGAGTAC
+Total occurrences: 3
+Positions: [150, 291, 786]
+Pattern: GACCGTACTT
+Total occurrences: 2
+Positions: [373, 1329]
+Pattern: GACCTGCTCG
+Total occurrences: 3
+Positions: [99, 114, 853]
+Pattern: GACGATGATA
+Total occurrences: 1
+Positions: [164]
+Pattern: GACGTCGATG
+Total occurrences: 1
+Positions: [1270]
+Pattern: GACTCGCCGT
+Total occurrences: 1
+Positions: [892]
+Pattern: GACTGACGTC
+Total occurrences: 1
+Positions: [524]
+Pattern: GACTTCTGGA
+Total occurrences: 1
+Positions: [729]
+Pattern: GACTTGCCAG
+Total occurrences: 2
+Positions: [435, 704]
+Pattern: GAGATCACGA
+Total occurrences: 1
+Positions: [639]
+Pattern: GAGATTACGT
+Total occurrences: 1
+Positions: [425]
+Pattern: GAGGCGCGTG
+Total occurrences: 2
+Positions: [459, 713]
+Pattern: GAGGTAACAA
+Total occurrences: 1
+Positions: [998]
+Pattern: GATACTTTAA
+Total occurrences: 4
+Positions: [104, 968, 1194, 1260]
+Pattern: GATAGCATCA
+Total occurrences: 1
+Positions: [928]
+Pattern: GATCAATTTA
+Total occurrences: 3
+Positions: [361, 748, 1179]
+Pattern: GATCACGAGG
+Total occurrences: 1
+Positions: [1223]
+Pattern: GATCCCCTGT
+Total occurrences: 2
+Positions: [344, 1337]
+Pattern: GATCCGGTAG
+Total occurrences: 1
+Positions: [79]
+Pattern: GATCGATCCG
+Total occurrences: 2
+Positions: [251, 431]
+Pattern: GATCGCGATT
+Total occurrences: 3
+Positions: [606, 622, 641]
+Pattern: GATCGGCGCG
+Total occurrences: 2
+Positions: [713, 878]
+Pattern: GATCTCGGTG
+Total occurrences: 1
+Positions: [641]
+Pattern: GATGATAACC
+Total occurrences: 1
+Positions: [273]
+Pattern: GATGATTGGG
+Total occurrences: 1
+Positions: [1174]
+Pattern: GATGCTTTGC
+Total occurrences: 1
+Positions: [273]
+Pattern: GATGGAACTC
+Total occurrences: 3
+Positions: [340, 651, 1329]
+Pattern: GATGGCGTGT
+Total occurrences: 1
+Positions: [321]
+Pattern: GATGTCCTAC
+Total occurrences: 1
+Positions: [1148]
+Pattern: GATGTTTAGC
+Total occurrences: 1
+Positions: [1062]
+Pattern: GATTAAAAAT
+Total occurrences: 1
+Positions: [251]
+Pattern: GATTCCCGCT
+Total occurrences: 1
+Positions: [939]
+Pattern: GATTTGCCGT
+Total occurrences: 1
+Positions: [755]
+Pattern: GCAAATGCAG
+Total occurrences: 4
+Positions: [14, 259, 812, 1277]
+Pattern: GCAAGAGATC
+Total occurrences: 2
+Positions: [975, 1225]
+Pattern: GCAAGGGCAG
+Total occurrences: 3
+Positions: [202, 761, 814]
+Pattern: GCAATGATTG
+Total occurrences: 1
+Positions: [1107]
+Pattern: GCAATGCCAG
+Total occurrences: 3
+Positions: [202, 634, 1107]
+Pattern: GCAGATACTT
+Total occurrences: 1
+Positions: [464]
+Pattern: GCAGCACATG
+Total occurrences: 1
+Positions: [276]
+Pattern: GCAGCCGGGA
+Total occurrences: 2
+Positions: [392, 449]
+Pattern: GCATCAACGC
+Total occurrences: 1
+Positions: [1001]
+Pattern: GCATCAGCAC
+Total occurrences: 2
+Positions: [374, 932]
+Pattern: GCATCGCGTC
+Total occurrences: 1
+Positions: [459]
+Pattern: GCCAGCAGCA
+Total occurrences: 3
+Positions: [235, 968, 1138]
+Pattern: GCCAGCCAGA
+Total occurrences: 3
+Positions: [34, 154, 968]
+Pattern: GCCAGGAACG
+Total occurrences: 1
+Positions: [612]
+Pattern: GCCAGGATGC
+Total occurrences: 1
+Positions: [734]
+Pattern: GCCAGGCAAG
+Total occurrences: 1
+Positions: [351]
+Pattern: GCCAGGCTGC
+Total occurrences: 2
+Positions: [734, 968]
+Pattern: GCCAGGTGCC
+Total occurrences: 1
+Positions: [320]
+Pattern: GCCATGTCTC
+Total occurrences: 1
+Positions: [1107]
+Pattern: GCCCAGTTCC
+Total occurrences: 2
+Positions: [99, 318]
+Pattern: GCCCGCACCT
+Total occurrences: 2
+Positions: [216, 457]
+Pattern: GCCCGGGAAT
+Total occurrences: 1
+Positions: [622]
+Pattern: GCCGATATTC
+Total occurrences: 1
+Positions: [1115]
+Pattern: GCCGCCGTGC
+Total occurrences: 1
+Positions: [112]
+Pattern: GCCGCGCTGA
+Total occurrences: 1
+Positions: [456]
+Pattern: GCCGGGATCT
+Total occurrences: 1
+Positions: [1121]
+Pattern: GCCGTGCTGG
+Total occurrences: 1
+Positions: [1024]
+Pattern: GCCGTGGCGA
+Total occurrences: 2
+Positions: [174, 496]
+Pattern: GCCTGTTTAC
+Total occurrences: 1
+Positions: [568]
+Pattern: GCGAAAATTA
+Total occurrences: 1
+Positions: [824]
+Pattern: GCGAGTGTTG
+Total occurrences: 1
+Positions: [420]
+Pattern: GCGATGCAGA
+Total occurrences: 2
+Positions: [77, 281]
+Pattern: GCGATGGAAC
+Total occurrences: 3
+Positions: [77, 547, 869]
+Pattern: GCGCAGCCGG
+Total occurrences: 3
+Positions: [447, 662, 1242]
+Pattern: GCGCCAAAGT
+Total occurrences: 1
+Positions: [843]
+Pattern: GCGCCAGGAA
+Total occurrences: 1
+Positions: [279]
+Pattern: GCGCCAGGTG
+Total occurrences: 1
+Positions: [610]
+Pattern: GCGCCGGGAT
+Total occurrences: 2
+Positions: [279, 474]
+Pattern: GCGCGCAGCC
+Total occurrences: 1
+Positions: [457]
+Pattern: GCGCGTCCAG
+Total occurrences: 1
+Positions: [1229]
+Pattern: GCGCGTGGGC
+Total occurrences: 1
+Positions: [753]
+Pattern: GCGCTGACTG
+Total occurrences: 3
+Positions: [65, 137, 610]
+Pattern: GCGCTGATTT
+Total occurrences: 2
+Positions: [65, 401]
+Pattern: GCGGAATCGA
+Total occurrences: 2
+Positions: [467, 1248]
+Pattern: GCGGCGCGTG
+Total occurrences: 2
+Positions: [276, 459]
+Pattern: GCGGGACTTC
+Total occurrences: 2
+Positions: [604, 1190]
+Pattern: GCGGGCAGAT
+Total occurrences: 2
+Positions: [453, 457]
+Pattern: GCGGGCTGAC
+Total occurrences: 2
+Positions: [449, 520]
+Pattern: GCGGGCTTTA
+Total occurrences: 1
+Positions: [295]
+Pattern: GCGTCACGGT
+Total occurrences: 2
+Positions: [561, 1206]
+Pattern: GCGTCCAGCG
+Total occurrences: 1
+Positions: [470]
+Pattern: GCGTCTCCGG
+Total occurrences: 4
+Positions: [325, 346, 579, 715]
+Pattern: GCGTGTATAC
+Total occurrences: 1
+Positions: [420]
+Pattern: GCGTGTTGCC
+Total occurrences: 2
+Positions: [4, 702]
+Pattern: GCGTGTTTTC
+Total occurrences: 1
+Positions: [420]
+Pattern: GCTCAGATCA
+Total occurrences: 1
+Positions: [351]
+Pattern: GCTCGCAGGA
+Total occurrences: 1
+Positions: [431]
+Pattern: GCTGAAATCG
+Total occurrences: 1
+Positions: [67]
+Pattern: GCTGACGCGT
+Total occurrences: 1
+Positions: [139]
+Pattern: GCTGACTGCT
+Total occurrences: 3
+Positions: [139, 176, 1231]
+Pattern: GCTGATCGGC
+Total occurrences: 3
+Positions: [159, 183, 1128]
+Pattern: GCTGATTTGC
+Total occurrences: 2
+Positions: [159, 273]
+Pattern: GCTGGCCGCC
+Total occurrences: 1
+Positions: [139]
+Pattern: GCTGGCGGTG
+Total occurrences: 2
+Positions: [392, 820]
+Pattern: GCTGGGCCGT
+Total occurrences: 1
+Positions: [139]
+Pattern: GCTGTGAAAT
+Total occurrences: 2
+Positions: [56, 1312]
+Pattern: GCTTTACCGC
+Total occurrences: 1
+Positions: [325]
+Pattern: GGAAACACAG
+Total occurrences: 3
+Positions: [286, 634, 931]
+Pattern: GGAAAGCAAT
+Total occurrences: 2
+Positions: [605, 1191]
+Pattern: GGAACGCTGA
+Total occurrences: 2
+Positions: [655, 1162]
+Pattern: GGAACTCTCT
+Total occurrences: 2
+Positions: [604, 1190]
+Pattern: GGAAGCGATG
+Total occurrences: 2
+Positions: [654, 820]
+Pattern: GGAATACAAG
+Total occurrences: 1
+Positions: [1250]
+Pattern: GGAATCGACT
+Total occurrences: 1
+Positions: [1250]
+Pattern: GGAATGAAAG
+Total occurrences: 1
+Positions: [286]
+Pattern: GGAATGTGAT
+Total occurrences: 4
+Positions: [15, 794, 974, 1107]
+Pattern: GGACGCCAGG
+Total occurrences: 1
+Positions: [768]
+Pattern: GGACTGACGT
+Total occurrences: 1
+Positions: [1061]
+Pattern: GGACTTCTGG
+Total occurrences: 1
+Positions: [728]
+Pattern: GGACTTGCCA
+Total occurrences: 6
+Positions: [83, 572, 580, 605, 703, 1191]
+Pattern: GGATAGCATC
+Total occurrences: 1
+Positions: [655]
+Pattern: GGATCTCGGT
+Total occurrences: 1
+Positions: [666]
+Pattern: GGATCTCTAA
+Total occurrences: 1
+Positions: [883]
+Pattern: GGATGATTGG
+Total occurrences: 1
+Positions: [158]
+Pattern: GGATTCCCGC
+Total occurrences: 1
+Positions: [1222]
+Pattern: GGCAAATGCA
+Total occurrences: 7
+Positions: [123, 268, 692, 811, 1138, 1167, 1276]
+Pattern: GGCAAGGGCA
+Total occurrences: 4
+Positions: [167, 724, 760, 1308]
+Pattern: GGCAATGATT
+Total occurrences: 1
+Positions: [1106]
+Pattern: GGCAGATACT
+Total occurrences: 3
+Positions: [740, 1015, 1029]
+Pattern: GGCATCGCGT
+Total occurrences: 1
+Positions: [458]
+Pattern: GGCCGATCAC
+Total occurrences: 1
+Positions: [1281]
+Pattern: GGCCGCCTGT
+Total occurrences: 1
+Positions: [1337]
+Pattern: GGCGATGTTT
+Total occurrences: 3
+Positions: [248, 1106, 1124]
+Pattern: GGCGCCAAAG
+Total occurrences: 1
+Positions: [430]
+Pattern: GGCGCCAGGA
+Total occurrences: 1
+Positions: [609]
+Pattern: GGCGCGTGTT
+Total occurrences: 1
+Positions: [419]
+Pattern: GGCGGCGCGT
+Total occurrences: 1
+Positions: [458]
+Pattern: GGCGGGACTT
+Total occurrences: 1
+Positions: [419]
+Pattern: GGCGGGCAGA
+Total occurrences: 4
+Positions: [452, 456, 469, 744]
+Pattern: GGCGTGTATA
+Total occurrences: 3
+Positions: [38, 419, 536]
+Pattern: GGCTGACGCG
+Total occurrences: 2
+Positions: [138, 1019]
+Pattern: GGCTTTACCG
+Total occurrences: 1
+Positions: [324]
+Pattern: GGCTTTTTTT
+Total occurrences: 1
+Positions: [1124]
+Pattern: GGGACTTCTG
+Total occurrences: 1
+Positions: [606]
+Pattern: GGGATCTCGG
+Total occurrences: 1
+Positions: [578]
+Pattern: GGGATCTCTA
+Total occurrences: 2
+Positions: [578, 882]
+Pattern: GGGATTCCCG
+Total occurrences: 1
+Positions: [1221]
+Pattern: GGGCAGATAC
+Total occurrences: 1
+Positions: [1014]
+Pattern: GGGCAGGTAG
+Total occurrences: 1
+Positions: [1014]
+Pattern: GGGCATCGCG
+Total occurrences: 3
+Positions: [472, 723, 1229]
+Pattern: GGGCTGACGC
+Total occurrences: 1
+Positions: [841]
+Pattern: GGGCTTTACC
+Total occurrences: 1
+Positions: [429]
+Pattern: GGGCTTTTTT
+Total occurrences: 1
+Positions: [30]
+Pattern: GGTAATCCGC
+Total occurrences: 4
+Positions: [13, 335, 488, 548]
+Pattern: GGTAGAAAAA
+Total occurrences: 2
+Positions: [604, 1190]
+Pattern: GGTATCAGCC
+Total occurrences: 1
+Positions: [549]
+Pattern: GGTCAGTGCC
+Total occurrences: 1
+Positions: [1307]
+Pattern: GGTGATCGAT
+Total occurrences: 4
+Positions: [605, 995, 1191, 1365]
+Pattern: GGTGCTGGGC
+Total occurrences: 1
+Positions: [348]
+Pattern: GGTGGCAATG
+Total occurrences: 2
+Positions: [204, 820]
+Pattern: GGTGGTGCTC
+Total occurrences: 1
+Positions: [327]
+Pattern: GGTGGTGCTG
+Total occurrences: 1
+Positions: [820]
+Pattern: GGTTAAAGGG
+Total occurrences: 2
+Positions: [4, 5]
+Pattern: GGTTCCGACT
+Total occurrences: 1
+Positions: [883]
+Pattern: GTAATCCGCA
+Total occurrences: 4
+Positions: [70, 311, 489, 549]
+Pattern: GTAATGAAAA
+Total occurrences: 1
+Positions: [949]
+Pattern: GTACACAACA
+Total occurrences: 2
+Positions: [85, 311]
+Pattern: GTACATCAGT
+Total occurrences: 1
+Positions: [858]
+Pattern: GTACTTTCCG
+Total occurrences: 2
+Positions: [251, 1261]
+Pattern: GTAGAAAAAT
+Total occurrences: 1
+Positions: [946]
+Pattern: GTAGCGACCG
+Total occurrences: 2
+Positions: [398, 414]
+Pattern: GTATACCTGT
+Total occurrences: 2
+Positions: [259, 557]
+Pattern: GTATCAGCCT
+Total occurrences: 2
+Positions: [330, 1284]
+Pattern: GTATCGCCGC
+Total occurrences: 1
+Positions: [414]
+Pattern: GTCACGGTGA
+Total occurrences: 1
+Positions: [772]
+Pattern: GTCCTTCACC
+Total occurrences: 1
+Positions: [49]
+Pattern: GTCGATCGCG
+Total occurrences: 1
+Positions: [1151]
+Pattern: GTCGATGGCG
+Total occurrences: 1
+Positions: [717]
+Pattern: GTCTCCGGCC
+Total occurrences: 5
+Positions: [685, 717, 1082, 1215, 1338]
+Pattern: GTCTCGCGCC
+Total occurrences: 2
+Positions: [581, 1215]
+Pattern: GTCTGATTAA
+Total occurrences: 4
+Positions: [20, 629, 916, 1273]
+Pattern: GTCTGGTTGC
+Total occurrences: 2
+Positions: [20, 1273]
+Pattern: GTGAAATCTG
+Total occurrences: 1
+Positions: [894]
+Pattern: GTGACCCGCG
+Total occurrences: 2
+Positions: [410, 489]
+Pattern: GTGATCAATT
+Total occurrences: 1
+Positions: [177]
+Pattern: GTGATCGATC
+Total occurrences: 2
+Positions: [996, 1366]
+Pattern: GTGCTGGCCG
+Total occurrences: 2
+Positions: [137, 1014]
+Pattern: GTGGCAAATG
+Total occurrences: 1
+Positions: [11]
+Pattern: GTGGCAATGA
+Total occurrences: 2
+Positions: [205, 821]
+Pattern: GTGGCGAAAA
+Total occurrences: 1
+Positions: [417]
+Pattern: GTGGGCATCG
+Total occurrences: 2
+Positions: [470, 721]
+Pattern: GTGGTGCTGG
+Total occurrences: 2
+Positions: [205, 821]
+Pattern: GTGTATACCT
+Total occurrences: 1
+Positions: [257]
+Pattern: GTGTTGAAGT
+Total occurrences: 1
+Positions: [177]
+Pattern: GTTAAAGGGA
+Total occurrences: 2
+Positions: [760, 1375]
+Pattern: GTTCCAGATC
+Total occurrences: 1
+Positions: [852]
+Pattern: GTTCCGACTA
+Total occurrences: 1
+Positions: [179]
+Pattern: GTTCTGCATG
+Total occurrences: 1
+Positions: [186]
+Pattern: GTTGAAAATG
+Total occurrences: 1
+Positions: [11]
+Pattern: GTTGAAGTTC
+Total occurrences: 1
+Positions: [327]
+Pattern: GTTTACGCGC
+Total occurrences: 7
+Positions: [131, 343, 541, 563, 1069, 1239, 1264]
+Pattern: GTTTCGGAAT
+Total occurrences: 1
+Positions: [1303]
+Pattern: GTTTTCTGCG
+Total occurrences: 1
+Positions: [992]
+Pattern: TAAAAATACC
+Total occurrences: 2
+Positions: [298, 959]
+Pattern: TAAAAATGAC
+Total occurrences: 1
+Positions: [762]
+Pattern: TAAAGGGATC
+Total occurrences: 2
+Positions: [992, 1225]
+Pattern: TAAATATATC
+Total occurrences: 1
+Positions: [1350]
+Pattern: TAACCTGCCG
+Total occurrences: 1
+Positions: [664]
+Pattern: TAACCTTAAC
+Total occurrences: 1
+Positions: [523]
+Pattern: TAATCCGCAG
+Total occurrences: 3
+Positions: [306, 414, 490]
+Pattern: TAATGAAAAG
+Total occurrences: 1
+Positions: [163]
+Pattern: TAATGGTTCC
+Total occurrences: 1
+Positions: [676]
+Pattern: TACACAACAT
+Total occurrences: 1
+Positions: [86]
+Pattern: TACAGGAAAC
+Total occurrences: 1
+Positions: [1201]
+Pattern: TACCAACCAT
+Total occurrences: 1
+Positions: [1002]
+Pattern: TACCACAGGT
+Total occurrences: 4
+Positions: [514, 1120, 1196, 1254]
+Pattern: TACCAGGAAG
+Total occurrences: 1
+Positions: [1039]
+Pattern: TACCGCCGGT
+Total occurrences: 2
+Positions: [908, 1120]
+Pattern: TACCGGTAAT
+Total occurrences: 1
+Positions: [908]
+Pattern: TACCGTTGAT
+Total occurrences: 1
+Positions: [908]
+Pattern: TACCTGTGAC
+Total occurrences: 1
+Positions: [53]
+Pattern: TACGCGCTGA
+Total occurrences: 2
+Positions: [62, 134]
+Pattern: TACTTCGGCG
+Total occurrences: 1
+Positions: [484]
+Pattern: TACTTTAACC
+Total occurrences: 6
+Positions: [54, 90, 203, 1067, 1262, 1310]
+Pattern: TACTTTCCGC
+Total occurrences: 1
+Positions: [1262]
+Pattern: TAGCATCAAC
+Total occurrences: 2
+Positions: [399, 412]
+Pattern: TAGCGTCTCC
+Total occurrences: 1
+Positions: [1092]
+Pattern: TAGGCGGGCA
+Total occurrences: 1
+Positions: [1288]
+Pattern: TATCAGCCTG
+Total occurrences: 2
+Positions: [1242, 1285]
+Pattern: TATCAGCGAT
+Total occurrences: 2
+Positions: [908, 1285]
+Pattern: TATCGCCAGC
+Total occurrences: 1
+Positions: [684]
+Pattern: TATCGGCGGC
+Total occurrences: 1
+Positions: [1285]
+Pattern: TATTCCGCCG
+Total occurrences: 3
+Positions: [306, 363, 490]
+Pattern: TCAAACATGT
+Total occurrences: 4
+Positions: [162, 592, 1254, 1322]
+Pattern: TCAATTTAAA
+Total occurrences: 3
+Positions: [181, 211, 1358]
+Pattern: TCACATGATC
+Total occurrences: 3
+Positions: [1089, 1225, 1346]
+Pattern: TCAGATCAAA
+Total occurrences: 1
+Positions: [211]
+Pattern: TCAGCCTGCT
+Total occurrences: 1
+Positions: [226]
+Pattern: TCAGTGGCAA
+Total occurrences: 3
+Positions: [202, 699, 1298]
+Pattern: TCATGACAGG
+Total occurrences: 1
+Positions: [436]
+Pattern: TCCCCTGTCT
+Total occurrences: 2
+Positions: [446, 1339]
+Pattern: TCCCGGCCGA
+Total occurrences: 1
+Positions: [1216]
+Pattern: TCCGCAGGCG
+Total occurrences: 1
+Positions: [446]
+Pattern: TCCGCCCCCG
+Total occurrences: 1
+Positions: [493]
+Pattern: TCCGCCGCCG
+Total occurrences: 2
+Positions: [493, 1267]
+Pattern: TCCGGCCCGG
+Total occurrences: 1
+Positions: [1334]
+Pattern: TCCGGTAGAA
+Total occurrences: 1
+Positions: [575]
+Pattern: TCCTACCAGG
+Total occurrences: 1
+Positions: [1181]
+Pattern: TCCTGATGGC
+Total occurrences: 2
+Positions: [20, 1273]
+Pattern: TCCTTCACCC
+Total occurrences: 1
+Positions: [597]
+Pattern: TCGACCAGAG
+Total occurrences: 1
+Positions: [1291]
+Pattern: TCGATCCGGT
+Total occurrences: 3
+Positions: [77, 433, 869]
+Pattern: TCGATGGCGT
+Total occurrences: 2
+Positions: [718, 869]
+Pattern: TCGATGTCCT
+Total occurrences: 1
+Positions: [309]
+Pattern: TCGCCGCCAG
+Total occurrences: 1
+Positions: [1291]
+Pattern: TCGCCGCCAT
+Total occurrences: 1
+Positions: [624]
+Pattern: TCGCCGTATC
+Total occurrences: 1
+Positions: [1271]
+Pattern: TCGCGGAATC
+Total occurrences: 2
+Positions: [418, 713]
+Pattern: TCGCGTCACG
+Total occurrences: 4
+Positions: [518, 1204, 1229, 1346]
+Pattern: TCGGAATGTG
+Total occurrences: 1
+Positions: [972]
+Pattern: TCGGCGCCAA
+Total occurrences: 1
+Positions: [417]
+Pattern: TCGGCGCGTC
+Total occurrences: 2
+Positions: [674, 1152]
+Pattern: TCGGCGGTAC
+Total occurrences: 2
+Positions: [462, 1122]
+Pattern: TCGGTGGTGC
+Total occurrences: 1
+Positions: [1358]
+Pattern: TCTAACCTTA
+Total occurrences: 1
+Positions: [488]
+Pattern: TCTCCGGCCC
+Total occurrences: 2
+Positions: [686, 1083]
+Pattern: TCTCTAACCT
+Total occurrences: 1
+Positions: [1068]
+Pattern: TCTGATTAAA
+Total occurrences: 1
+Positions: [1274]
+Pattern: TCTGGAAAGC
+Total occurrences: 1
+Positions: [554]
+Pattern: TCTGGTGGCA
+Total occurrences: 5
+Positions: [155, 395, 569, 925, 1274]
+Pattern: TCTGGTTGCA
+Total occurrences: 1
+Positions: [101]
+Pattern: TCTTACTTCG
+Total occurrences: 1
+Positions: [1370]
+Pattern: TGAAAAGGGT
+Total occurrences: 3
+Positions: [166, 643, 1263]
+Pattern: TGAAAGGGAT
+Total occurrences: 2
+Positions: [285, 358]
+Pattern: TGAAATCGAT
+Total occurrences: 1
+Positions: [1009]
+Pattern: TGAACAGTGC
+Total occurrences: 1
+Positions: [643]
+Pattern: TGAACCGCAT
+Total occurrences: 1
+Positions: [693]
+Pattern: TGAACTGGTG
+Total occurrences: 1
+Positions: [1168]
+Pattern: TGACAGAGTA
+Total occurrences: 2
+Positions: [181, 290]
+Pattern: TGACAGGGGG
+Total occurrences: 3
+Positions: [181, 290, 733]
+Pattern: TGACCCGCGC
+Total occurrences: 1
+Positions: [585]
+Pattern: TGACCTGCTC
+Total occurrences: 2
+Positions: [523, 1089]
+Pattern: TGACGCGTAC
+Total occurrences: 1
+Positions: [566]
+Pattern: TGACTGCTGT
+Total occurrences: 3
+Positions: [19, 141, 703]
+Pattern: TGATCGATCC
+Total occurrences: 3
+Positions: [676, 877, 1328]
+Pattern: TGATCGGCGC
+Total occurrences: 4
+Positions: [877, 997, 1052, 1328]
+Pattern: TGATTGGGAT
+Total occurrences: 1
+Positions: [1302]
+Pattern: TGATTTGCCG
+Total occurrences: 1
+Positions: [490]
+Pattern: TGCAAGAGAT
+Total occurrences: 3
+Positions: [210, 358, 974]
+Pattern: TGCATGGTAT
+Total occurrences: 2
+Positions: [903, 1233]
+Pattern: TGCCAGCGCG
+Total occurrences: 2
+Positions: [853, 967]
+Pattern: TGCCAGGCAA
+Total occurrences: 1
+Positions: [350]
+Pattern: TGCCGTGGCG
+Total occurrences: 4
+Positions: [173, 201, 698, 1362]
+Pattern: TGCGAGTGTT
+Total occurrences: 1
+Positions: [358]
+Pattern: TGCGGGCTGA
+Total occurrences: 2
+Positions: [134, 448]
+Pattern: TGCGGGCTTT
+Total occurrences: 2
+Positions: [248, 1077]
+Pattern: TGCTCGCAGG
+Total occurrences: 1
+Positions: [1367]
+Pattern: TGCTGAAATC
+Total occurrences: 1
+Positions: [350]
+Pattern: TGCTGGCCGC
+Total occurrences: 1
+Positions: [138]
+Pattern: TGCTGGGCCG
+Total occurrences: 1
+Positions: [138]
+Pattern: TGCTGTGAAA
+Total occurrences: 1
+Positions: [23]
+Pattern: TGGCAAATGC
+Total occurrences: 1
+Positions: [357]
+Pattern: TGGCAATGAT
+Total occurrences: 1
+Positions: [767]
+Pattern: TGGCGAAAAA
+Total occurrences: 1
+Positions: [418]
+Pattern: TGGCGATGTT
+Total occurrences: 2
+Positions: [767, 822]
+Pattern: TGGCGGCGCG
+Total occurrences: 1
+Positions: [822]
+Pattern: TGGCGGGACT
+Total occurrences: 1
+Positions: [323]
+Pattern: TGGCGGTGGG
+Total occurrences: 1
+Positions: [822]
+Pattern: TGGCGTGTAT
+Total occurrences: 2
+Positions: [42, 323]
+Pattern: TGGGATGGCG
+Total occurrences: 2
+Positions: [173, 1306]
+Pattern: TGGGCATCGC
+Total occurrences: 2
+Positions: [722, 880]
+Pattern: TGGGCCATTA
+Total occurrences: 1
+Positions: [81]
+Pattern: TGGGCCGTAA
+Total occurrences: 1
+Positions: [29]
+Pattern: TGGGTCAGTG
+Total occurrences: 2
+Positions: [28, 779]
+Pattern: TGGTATCAGC
+Total occurrences: 1
+Positions: [412]
+Pattern: TGGTGGCAAT
+Total occurrences: 1
+Positions: [175]
+Pattern: TGGTTCCGAC
+Total occurrences: 1
+Positions: [81]
+Pattern: TGGTTGCAAG
+Total occurrences: 1
+Positions: [346]
+Pattern: TGTATACCTG
+Total occurrences: 2
+Positions: [258, 556]
+Pattern: TGTCCTACCA
+Total occurrences: 1
+Positions: [703]
+Pattern: TGTCTCGCGC
+Total occurrences: 1
+Positions: [684]
+Pattern: TGTCTGATTA
+Total occurrences: 4
+Positions: [19, 81, 684, 1207]
+Pattern: TGTGAAATCT
+Total occurrences: 2
+Positions: [199, 1135]
+Pattern: TGTGACCCGC
+Total occurrences: 3
+Positions: [69, 335, 488]
+Pattern: TGTGATCAAT
+Total occurrences: 1
+Positions: [248]
+Pattern: TGTTCTGCAT
+Total occurrences: 2
+Positions: [253, 874]
+Pattern: TGTTGAAGTT
+Total occurrences: 1
+Positions: [178]
+Pattern: TGTTTACGCG
+Total occurrences: 3
+Positions: [242, 342, 984]
+Pattern: TTAAAAATAC
+Total occurrences: 1
+Positions: [1038]
+Pattern: TTAAAGGGAT
+Total occurrences: 2
+Positions: [210, 1311]
+Pattern: TTAACAACAT
+Total occurrences: 1
+Positions: [922]
+Pattern: TTACCACCAT
+Total occurrences: 2
+Positions: [382, 922]
+Pattern: TTACCGCCGG
+Total occurrences: 1
+Positions: [907]
+Pattern: TTACGCGCTG
+Total occurrences: 3
+Positions: [133, 858, 1241]
+Pattern: TTACTTCGGC
+Total occurrences: 1
+Positions: [105]
+Pattern: TTAGCGTCTC
+Total occurrences: 1
+Positions: [366]
+Pattern: TTCACCCTCG
+Total occurrences: 2
+Positions: [180, 749]
+Pattern: TTCCGACTAT
+Total occurrences: 2
+Positions: [180, 749]
+Pattern: TTCCGCCGCC
+Total occurrences: 1
+Positions: [1266]
+Pattern: TTCGCCGCCA
+Total occurrences: 1
+Positions: [0]
+Pattern: TTCGCTCAGA
+Total occurrences: 1
+Positions: [507]
+Pattern: TTCGGCGGTA
+Total occurrences: 1
+Positions: [757]
+Pattern: TTCTGACCTG
+Total occurrences: 2
+Positions: [138, 487]
+Pattern: TTCTGCATGG
+Total occurrences: 1
+Positions: [187]
+Pattern: TTCTGCGTGT
+Total occurrences: 1
+Positions: [187]
+Pattern: TTCTGGAAAG
+Total occurrences: 1
+Positions: [600]
+Pattern: TTCTGGAGGC
+Total occurrences: 1
+Positions: [1067]
+Pattern: TTGAATCTAC
+Total occurrences: 3
+Positions: [225, 390, 477]
+Pattern: TTGCAAGAGA
+Total occurrences: 1
+Positions: [555]
+Pattern: TTGCCAGCGC
+Total occurrences: 2
+Positions: [28, 966]
+Pattern: TTGCCGTGGC
+Total occurrences: 5
+Positions: [6, 172, 284, 386, 472]
+Pattern: TTGGGATGGC
+Total occurrences: 2
+Positions: [28, 880]
+Pattern: TTTACCGCCG
+Total occurrences: 2
+Positions: [410, 1056]
+Pattern: TTTACGCGCT
+Total occurrences: 4
+Positions: [132, 531, 1070, 1240]
+Pattern: TTTAGCGTCT
+Total occurrences: 3
+Positions: [180, 749, 1286]
+Pattern: TTTCTGACCT
+Total occurrences: 2
+Positions: [796, 1070]
+Pattern: TTTGCCGTGG
+Total occurrences: 1
+Positions: [103]
+Pattern: TTTTCTGCGT
+Total occurrences: 1
+Positions: [874]
+Pattern: TTTTTCTGAC
+Total occurrences: 2
+Positions: [1055, 1067]
+Pattern: TTTTTTCTGA
+Total occurrences: 1
+Positions: [105]
+
+Total Runtime: 6.7 seconds

@@ -1,0 +1,37 @@
+---Greedy Motif Search---
+Runtime: 22.5 seconds
+Consensus Sequence: AAAAAAATTTTTTTT
+Score: 0
+Motifs:
+  Sequence 1: AAAAAAATTTTTTTT
+  Sequence 2: AAAAAAATTTTTTTT
+  Sequence 3: AAAAAAATTTTTTTT
+  Sequence 4: AAAAAAATTTTTTTT
+  Sequence 5: AAAAAAATTTTTTTT
+  Sequence 6: AAAAAAATTTTTTTT
+
+---Random Motif Search---
+Runtime: 5.0 seconds
+Consensus Sequence: GAAAAAAATTTTTTT
+Score: 2
+Motifs:
+  Sequence 1: CAAAAAAATTTTTTT
+  Sequence 2: GAAAAAAATTTTTTT
+  Sequence 3: GAAAAAAATTTTTTT
+  Sequence 4: CAAAAAAATTTTTTT
+  Sequence 5: GAAAAAAATTTTTTT
+  Sequence 6: GAAAAAAATTTTTTT
+
+---Gibbs Sampler Motif Search---
+Runtime: 1.0 seconds
+Consensus Sequence: AAAAAAATTTTTTTT
+Score: 0
+Motifs:
+  Sequence 1: AAAAAAATTTTTTTT
+  Sequence 2: AAAAAAATTTTTTTT
+  Sequence 3: AAAAAAATTTTTTTT
+  Sequence 4: AAAAAAATTTTTTTT
+  Sequence 5: AAAAAAATTTTTTTT
+  Sequence 6: AAAAAAATTTTTTTT
+
+Total Runtime: 28.4 seconds

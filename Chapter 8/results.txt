@@ -1,0 +1,57 @@
+Data Matrix:
+1.0 2.0 3.0 4.0
+1.1 2.1 2.9 4.1
+9.0 8.9 9.1 9.2
+8.8 9.2 9.0 9.1
+4.9 5.1 5.0 5.2
+
+--- k-Centres Clustering ---
+Runtime: 0.0 seconds
+Result:
+Cluster 1: [(1.0, 2.0, 3.0, 4.0), (1.1, 2.1, 2.9, 4.1)] and centre = (1.1, 2.1, 2.9, 4.1)
+Cluster 2: [(9.0, 8.9, 9.1, 9.2), (8.8, 9.2, 9.0, 9.1)] and centre = (9.0, 8.9, 9.1, 9.2)
+Cluster 3: [(4.9, 5.1, 5.0, 5.2)] and centre = (4.9, 5.1, 5.0, 5.2)
+
+--- Lloyd's k-Means Clustering ---
+Runtime: 0.0 seconds
+Result:
+Cluster 1: [(4.9, 5.1, 5.0, 5.2)] and centre = (4.9, 5.1, 5.0, 5.2)
+Cluster 2: [(9.0, 8.9, 9.1, 9.2), (8.8, 9.2, 9.0, 9.1)] and centre = (8.9, 9.1, 9.1, 9.1)
+Cluster 3: [(1.0, 2.0, 3.0, 4.0), (1.1, 2.1, 2.9, 4.1)] and centre = (1.1, 2.0, 3.0, 4.0)
+
+--- Soft k-Means Clustering ---
+Runtime: 0.0 seconds
+Result:
+Cluster 1: [(8.8, 9.2, 9.0, 9.1)] and centre = (8.8, 9.0, 9.0, 9.1)
+Cluster 2: [(1.0, 2.0, 3.0, 4.0), (1.1, 2.1, 2.9, 4.1), (4.9, 5.1, 5.0, 5.2)] and centre = (2.3, 3.0, 3.6, 4.4)
+Cluster 3: [(9.0, 8.9, 9.1, 9.2)] and centre = (8.8, 9.0, 9.0, 9.1)
+
+--- CAST Clustering ---
+Runtime: 0.0 seconds
+Result:
+Cluster 1: [(1.0, 2.0, 3.0, 4.0), (1.1, 2.1, 2.9, 4.1)] and centre = (1.1, 2.0, 3.0, 4.0)
+Cluster 2: [(9.0, 8.9, 9.1, 9.2), (8.8, 9.2, 9.0, 9.1)] and centre = (8.9, 9.1, 9.1, 9.1)
+Cluster 3: [(4.9, 5.1, 5.0, 5.2)] and centre = (4.9, 5.1, 5.0, 5.2)
+
+--- Hierarchical Clustering ---
+Runtime: 0.0 seconds
+Result:
+8
+  |-- 6 (len=0.1629)
+    6
+      |-- 3 (len=0.0842)
+        3
+      |-- 4 (len=0.0842)
+        4
+  |-- 7 (len=0.1456)
+    7
+      |-- 2 (len=0.1016)
+        2
+      |-- 5 (len=0.1001)
+        5
+          |-- 0 (len=0.0015)
+            0
+          |-- 1 (len=0.0015)
+            1
+
+Total Runtime: 0.0 seconds
