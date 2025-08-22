@@ -11,6 +11,7 @@ This repository contains my personal implementations of core algorithms from Bio
 - [Project Structure](#project-structure)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Author](#author)
 - [References](#references)
 
 ---
