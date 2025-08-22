@@ -144,7 +144,7 @@ cd 02_motif_search
 python main.py
 ```
 
-3. The script will you prompt you for the required inputs (files, parameters).
+3. The script will prompt you for the required inputs (files, parameters).
 
 - If no files or parameters are selected, it will automatically use the provided test files and default variables.
 
