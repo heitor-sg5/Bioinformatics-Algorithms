@@ -105,6 +105,8 @@ Bioinformatics-Algorithms/
 └── README.md
 ```
 
+---
+
 ## Installation
 
 ## Usage
