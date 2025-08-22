@@ -33,6 +33,7 @@ This repository contains my personal implementations of core algorithms from Bio
 
 ## Project Structure
 
+```
 Bioinformatics-Algorithms/
 ├── 01_origin_finder/
 │   ├── main.py
@@ -102,6 +103,7 @@ Bioinformatics-Algorithms/
 │   ├── test2.txt
 │   └── results.txt
 └── README.md
+```
 
 ## Installation
 
