@@ -14,7 +14,11 @@ This repository contains my personal implementations of core algorithms from Bio
 - [Contributing](#contributing)
 - [References](#references)
 
+---
+
 ## Covered Topics
+
+
 
 ## Project Structure
 
