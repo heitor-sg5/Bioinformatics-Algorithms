@@ -35,72 +35,72 @@ This repository contains my personal implementations of core algorithms from Bio
 
 Bioinformatics-Algorithms/
 ├── 01_origin_finder/
-││   ├── main.py
-│   └── origin_finder.py
-|   └── test.txt
-|   └── results.txt
+│ ├── main.py
+│ ├── origin_finder.py
+│ ├── test.txt
+│ └── results.txt
 ├── 02_motif_search/
-│   ├── main.py
-│   └── motif_search.py
-|   └── test.txt
-|   └── results.txt
+│ ├── main.py
+│ ├── motif_search.py
+│ ├── test.txt
+│ └── results.txt
 ├── 03_genome_sequencing/
-│   ├── main.py
-│   └── genome_sequencing.py
-│   └── reads_and_pairs.txt
-|   └── test.txt
-|   └── results.txt
+│ ├── main.py
+│ ├── genome_sequencing.py
+│ ├── reads_and_pairs.txt
+│ ├── test.txt
+│ └── results.txt
 ├── 04_peptide_sequencing/
-│   ├── main.py
-│   └── peptide_sequencing.py
-|   └── test.txt
-|   └── results.txt
+│ ├── main.py
+│ ├── peptide_sequencing.py
+│ ├── test.txt
+│ └── results.txt
 ├── 05_sequence_alignment/
-│   ├── main.py
-│   └── sequence_alignment.py
-|   └── local_test.txt
-|   └── global_test.txt
-|   └── fitting_test.txt
-|   └── msa_test.txt
-|   └── results.txt
+│ ├── main.py
+│ ├── sequence_alignment.py
+│ ├── local_test.txt
+│ ├── global_test.txt
+│ ├── fitting_test.txt
+│ ├── msa_test.txt
+│ └── results.txt
 ├── 06_genome_rearrangement/
-│   ├── main.py
-│   └── genome_rearrangement.py
-|   └── 2b_test1.txt
-|   └── 2b_test2.txt
-|   └── bp_test1.txt
-|   └── bp_test2.txt
-|   └── results.txt
+│ ├── main.py
+│ ├── genome_rearrangement.py
+│ ├── 2b_test1.txt
+│ ├── 2b_test2.txt
+│ ├── bp_test1.txt
+│ ├── bp_test2.txt
+│ └── results.txt
 ├── 07_phylogenetic_analysis/
-│   ├── main.py
-│   └── phylogenetic_analysis.py
-|   └── test.txt
-|   └── results.txt
+│ ├── main.py
+│ ├── phylogenetic_analysis.py
+│ ├── test.txt
+│ └── results.txt
 ├── 08_clustering_analysis/
-│   ├── main.py
-│   └── clustering_analysis.py
-|   └── test.txt
-|   └── results.txt
-├── 09_combinational_pattern_matching/
-│   ├── main.py
-│   └── pattern_matching.py
-|   └── test1.txt
-|   └── test2.txt
-|   └── reads.txt
-|   └── results.txt
+│ ├── main.py
+│ ├── clustering_analysis.py
+│ ├── test.txt
+│ └── results.txt
+├── 09_combinatorial_pattern_matching/
+│ ├── main.py
+│ ├── pattern_matching.py
+│ ├── test1.txt
+│ ├── test2.txt
+│ ├── reads.txt
+│ └── results.txt
 ├── 10_hmm_classification_analysis/
-│   ├── main.py
-│   └── hmm_classification.py
-|   └── test1.txt
-|   └── test2.txt
-|   └── hmm_matrices.txt
-|   └── results.txt
+│ ├── main.py
+│ ├── hmm_classification.py
+│ ├── test1.txt
+│ ├── test2.txt
+│ ├── hmm_matrices.txt
+│ └── results.txt
 ├── 11_peptide_vector_search/
-│   ├── main.py
-│   └── peptide_search.py
-|   └── test1.txt
-|   └── test2.txt
-|   └── results.txt
+│ ├── main.py
+│ ├── peptide_search.py
+│ ├── test1.txt
+│ ├── test2.txt
+│ └── results.txt
 └── README.md
 
 
