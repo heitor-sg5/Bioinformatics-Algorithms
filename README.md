@@ -111,14 +111,14 @@ Bioinformatics-Algorithms/
 
 ## Installation
 
-1. **Clone the repository:**
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/heitor-sg5/Bioinformatics-Algorithms.git
 cd Bioinformatics-Algorithms
 ```
 
-2. **Install MUSCLE:**
+2. Install MUSCLE:
 
 - Download MUSCLE from the official website: https://drive5.com/muscle/downloads_v3.htm
 - Follow the instructions for your operating system to install it.
@@ -127,6 +127,27 @@ cd Bioinformatics-Algorithms
 ---
 
 ## Usage
+
+Each topic folder contains a `main.py` script that runs the corresponding algorithms.  
+
+### General usage
+
+1. Navigate to the topic folder, for example:
+
+```bash
+cd 02_motif_search
+```
+
+2. Run the main script:
+
+```bash
+python main.py
+```
+
+3. The script will you prompt you fir required inputs (files, parameters).
+- If no files or parameters are selcted, it will automatically use test files and default variables.
+
+---
 
 ## Contributing
 
