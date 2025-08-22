@@ -11,7 +11,6 @@ This repository contains my personal implementations of core algorithms from Bio
 - [Project Structure](#project-structure)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [References](#references)
 
 ---
@@ -150,7 +149,14 @@ python main.py
 
 ---
 
-## Contributing
+## Author
+
+Heitor Gelain do Nascimento
+Email: heitorgelain@outlook.com
+GitHub: @heitor-sg5
+
+---
 
 ## References
 
+Bioinformatics Algorithms: An Active Learning Approach 3rd Edition by Phillip Compeau & Pavel Pevzner https://bioinformaticsalgorithms.com
