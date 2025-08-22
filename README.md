@@ -109,6 +109,23 @@ Bioinformatics-Algorithms/
 
 ## Installation
 
+## Installation
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/heitor-sg5/Bioinformatics-Algorithms.git
+cd Bioinformatics-Algorithms
+```
+
+2. **Install MUSCLE:**
+
+- Download MUSCLE from the official website: https://drive5.com/muscle/downloads_v3.htm
+- Follow the instructions for your operating system to install it.
+- Set the `muscle_path` variable to the location of the MUSCLE executable on your system.
+
+---
+
 ## Usage
 
 ## Contributing
