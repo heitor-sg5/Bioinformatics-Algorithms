@@ -35,7 +35,7 @@ This repository contains my personal implementations of core algorithms from Bio
 
 Bioinformatics-Algorithms/
 ├── 01_origin_finder/
-│   ├── main.py
+││   ├── main.py
 │   └── origin_finder.py
 |   └── test.txt
 |   └── results.txt
