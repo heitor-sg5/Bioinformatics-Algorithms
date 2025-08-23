@@ -111,6 +111,12 @@ Bioinformatics-Algorithms/
 
 ## Installation
 
+Prerequisites:
+
+- Python 3.8 or higher
+- Required Python packages: numpy, biopython, matplotlib
+- MUSCLE for sequence alignment tasks
+
 1. Clone the repository:
 
 ```bash
@@ -118,11 +124,17 @@ git clone https://github.com/heitor-sg5/Bioinformatics-Algorithms.git
 cd Bioinformatics-Algorithms
 ```
 
-2. Install MUSCLE:
+2. Install Python dependencies:
+
+```bash
+pip install numpy biopython matplotlib
+```
+
+4. Install MUSCLE:
 
 - Download MUSCLE from the official website: https://drive5.com/muscle/downloads_v3.htm
 - Follow the instructions for your operating system to install it.
-- Set the `muscle_path` variable to the location of the MUSCLE executable on your system.
+- Set the `muscle_path` variable (in  to the location of the MUSCLE executable on your system.
 
 ---
 
