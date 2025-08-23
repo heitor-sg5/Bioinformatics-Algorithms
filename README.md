@@ -109,8 +109,6 @@ Bioinformatics-Algorithms/
 
 ## Installation
 
-## Installation
-
 Prerequisites:
 
 - Python 3.8 or higher
@@ -130,11 +128,11 @@ cd Bioinformatics-Algorithms
 pip install numpy biopython matplotlib
 ```
 
-4. Install MUSCLE:
+3. Install MUSCLE:
 
 - Download MUSCLE from the official website: https://drive5.com/muscle/downloads_v3.htm
 - Follow the instructions for your operating system to install it.
-- Set the `muscle_path` variable (in  to the location of the MUSCLE executable on your system.
+- Set the `muscle_path` variable (in `07_phylogenetic_analysis` and `10_hmm_classification_analysis`) to the location of the MUSCLE executable on your system.
 
 ---
 
