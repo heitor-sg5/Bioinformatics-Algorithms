@@ -27,7 +27,7 @@ This repository contains implementations of core algorithms from Bioinformatics 
 - **Clustering Analysis** – grouping biological data based on similarity  
 - **Combinatorial Pattern Matching** – efficient pattern search algorithms  
 - **HMM Classification Analysis** – sequence classification using profile hidden Markov model matrices
-- **Peptide Vector Search** – sequences linear peptides from vector spectra and searches for database matches.
+- **Peptide Vector Search** – sequences linear peptides from vector spectra and searches for database matches
 
 ---
 
