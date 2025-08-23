@@ -162,8 +162,8 @@ python main.py
 
 ## Author
 
-Heitor Gelain do Nascimento
-Email: heitorgelain@outlook.com
+Heitor Gelain do Nascimento | 
+Email: heitorgelain@outlook.com | 
 GitHub: @heitor-sg5
 
 ---
