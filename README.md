@@ -132,15 +132,13 @@ pip install numpy biopython matplotlib
 
 - Download MUSCLE from the official website: https://drive5.com/muscle/downloads_v3.htm
 - Follow the instructions for your operating system to install it.
-- Set the `muscle_path` variable (in `07_phylogenetic_analysis` and `10_hmm_classification_analysis`) to the location of the MUSCLE executable on your system.
+- Set the `muscle_path` variable (in `07_phylogenetic_analysis.py` and `10_hmm_classification_analysis.py`) to the location of the MUSCLE executable on your system.
 
 ---
 
 ## Usage
 
 Each topic folder contains a `main.py` script that runs the corresponding algorithms.  
-
-### General usage
 
 1. Navigate to the topic folder, for example:
 
