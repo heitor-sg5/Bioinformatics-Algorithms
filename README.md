@@ -170,4 +170,4 @@ GitHub: @heitor-sg5
 
 ## References
 
-Bioinformatics Algorithms: An Active Learning Approach 3rd Edition by Phillip Compeau & Pavel Pevzner https://bioinformaticsalgorithms.com
+Bioinformatics Algorithms: An Active Learning Approach (3rd Edition) by Phillip Compeau & Pavel Pevzner https://bioinformaticsalgorithms.com
